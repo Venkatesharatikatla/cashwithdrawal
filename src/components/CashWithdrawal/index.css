@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  color: #c7d2fe;
+  background-color: #150b3e;
+  height: 50vh;
+  width: 35vw;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+.logo {
+  color: #585076;
+  background-color: #c7d2fe;
+  padding-top: 18px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 30px;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #c7d2fe;
+  padding-left: 10px;
+  padding-top: 6px;
+}
+.balance-details-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 24px;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #585076;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 15vw;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.rupees {
+  padding-top: 10px;
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
