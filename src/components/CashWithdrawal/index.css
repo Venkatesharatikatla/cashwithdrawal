@@ -1,66 +1,81 @@
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 .sub-container {
-  display: flex;
-  flex-direction: column;
-  color: #c7d2fe;
   background-color: #150b3e;
-  height: 50vh;
-  width: 35vw;
+  width: 80%;
+  border-radius: 16px;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  max-width: 350px;
 }
 .user-details-container {
   display: flex;
-  flex-direction: row;
-  margin: 30px;
+}
+.logo-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
 }
 .logo {
-  color: #585076;
-  background-color: #c7d2fe;
-  padding-top: 18px;
+  color: #7c3aed;
   font-family: 'Roboto';
-  font-size: 16px;
-  height: 60px;
-  width: 60px;
-  text-align: center;
-  border-radius: 30px;
+  font-size: 14px;
 }
 .user-name {
+  color: #d4d2db;
   font-family: 'Roboto';
-  font-size: 26px;
-  color: #c7d2fe;
-  padding-left: 10px;
-  padding-top: 6px;
+  font-size: 16px;
+  margin-left: 8px;
 }
 .balance-details-container {
   display: flex;
-  flex-direction: row;
-  margin: 0px;
+  justify-content: space-between;
+  margin-top: 24px;
 }
 .balance {
-  font-family: 'Roboto';
-  font-size: 24px;
-  padding-left: 25px;
-  font-weight: 500;
   color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
 }
 .amount {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-left: 15vw;
+  color: #d4d2db;
   font-family: 'Roboto';
-  font-size: 35px;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
 }
 .rupees {
-  padding-top: 10px;
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.choose-sum {
   color: #585076;
   font-family: 'Roboto';
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
+}
+.denominations-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
